@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    background:url("groot1.png") no-repeat;
+}
+:root {
+    --primary-color:#808000;
+}
+/* Navbar area*/
+nav{
+    font-family: 'East Sea Dokdo', cursive;
+    text-align:center;
+    font-size: xx-large;
+    padding:0.05rem;
+    background-color:var(--primary-color);
+    border-radius:0px 0px 1rem 1rem;
+    margin-bottom:3rem;
+    color:white;
+    text-shadow: 4px 4px #8b4513;
+
+}
+
+/* Section area*/
+section{
+    margin:auto;
+    
+    text-align:center;
+    
+    background-size: 100% 100%;
+   
+   
+}
+
+button{
+    margin:3rem 0px;
+    padding:1rem 2rem;
+    font-family: 'East Sea Dokdo', cursive;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+
+}
+textarea{
+    min-width:200px;
+    display:block;
+    margin:auto;
+    width:50vw;
+    height:25vh;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: x-large;
+}
+
+/*Footer area*/
+footer {
+    font-family: 'East Sea Dokdo', cursive;
+    bottom: 0;
+    width: 100%;
+    margin-top:3rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align:center;
+}
+footer p{
+    font-size:xx-large
+}
